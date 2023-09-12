@@ -29,7 +29,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "init-msw": "msw init public/",
-    "chromatic": "npx chromatic --project-token=chpt_859b49088528f5b"
+    "chromatic": "npx chromatic --project-token=chpt_859b49088528f5b",
+    "test-storybook": "test-storybook"
   },
   "devDependencies": {
     "@storybook/addon-a11y": "^7.4.1",
