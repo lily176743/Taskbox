@@ -1,0 +1,88 @@
+$ storybook build --output-dir C:\Users\PC\AppData\Local\Temp\chromatic--8748-X0qUmrTg8Af9
+@storybook/cli v7.0.6
+
+info => Cleaning outputDir: C:\Users\PC\AppData\Local\Temp\chromatic--8748-X0qUmrTg8Af9
+info => Loading presets
+info => Building manager..
+info => Manager built (699 ms)
+info => Copying static files: E:\Exercise\Storybook\taskbox\node_modules\@storybook\manager\static at C:\Users\PC\AppData\Local\Temp\chromatic--8748-X0qUmrTg8Af9\sb-common-assets
+info => Copying static files: E:\Exercise\Storybook\taskbox\public at C:\Users\PC\AppData\Local\Temp\chromatic--8748-X0qUmrTg8Af9\
+[36mvite v4.2.2 [32mbuilding for production...[36m[39m
+
+./sb-common-assets/fonts.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
+transforming...
+Use of eval in "node_modules/telejson/dist/index.mjs" is strongly discouraged as it poses security risks and may cause issues with minification.
+Use of eval in "node_modules/telejson/dist/index.mjs" is strongly discouraged as it poses security risks and may cause issues with minification.
+[32m✓[39m 1671 modules transformed.
+rendering chunks...
+[33mwarnings when minifying css:
+▲ [WARNING] CSS nesting syntax is not supported in the configured target environment ("chrome87", "edge88", "es2020", "firefox78", "safari14") [unsupported-css-nesting]
+
+    <stdin>:36:2:
+      36 │   *vertical-align: middle;
+         ╵   ^
+
+
+▲ [WARNING] Expected identifier but found whitespace [css-syntax-error]
+
+    <stdin>:36:18:
+      36 │   *vertical-align: middle;
+         ╵                   ^
+
+
+▲ [WARNING] Unexpected ";" [css-syntax-error]
+
+    <stdin>:36:25:
+      36 │   *vertical-align: middle;
+         ╵                          ^
+
+[39m
+computing gzip size...
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[32miframe.html                                         [39m[1m[2m 12.60 kB[22m[1m[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[32massets/percolate-dac75269.ttf                       [39m[1m[2m 34.04 kB[22m[1m[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[32massets/percolate-ec979d96.woff                      [39m[1m[2m 34.11 kB[22m[1m[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[32massets/percolate-5ed633c2.eot                       [39m[1m[2m 34.21 kB[22m[1m[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[32massets/percolate-d13fa91b.svg                       [39m[1m[2m140.51 kB[22m[1m[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[35massets/preview-7623e708.css                         [39m[1m[2m  6.91 kB[22m[1m[22m[2m │ gzip:   2.07 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/index-d475d2ea.js                            [39m[1m[2m  0.21 kB[22m[1m[22m[2m │ gzip:   0.17 kB[22m[2m │ map:     0.80 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/_commonjs-dynamic-modules-302442b1.js        [39m[1m[2m  0.30 kB[22m[1m[22m[2m │ gzip:   0.24 kB[22m[2m │ map:     0.12 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/WithTooltip-FBT32F6Q-f57efbd8.js             [39m[1m[2m  0.55 kB[22m[1m[22m[2m │ gzip:   0.32 kB[22m[2m │ map:     0.11 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/syntaxhighlighter-QTQ2UBB4-a8194a1b.js       [39m[1m[2m  0.57 kB[22m[1m[22m[2m │ gzip:   0.35 kB[22m[2m │ map:     0.12 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/index-6d7aa4ee.js                            [39m[1m[2m  0.62 kB[22m[1m[22m[2m │ gzip:   0.38 kB[22m[2m │ map:     4.25 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/preview-0435c720.js                          [39m[1m[2m  0.69 kB[22m[1m[22m[2m │ gzip:   0.49 kB[22m[2m │ map:     3.73 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/_commonjsHelpers-042e6b4d.js                 [39m[1m[2m  0.78 kB[22m[1m[22m[2m │ gzip:   0.44 kB[22m[2m │ map:     0.11 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/index-4d501b15.js                            [39m[1m[2m  0.80 kB[22m[1m[22m[2m │ gzip:   0.52 kB[22m[2m │ map:     4.01 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/index-356e4a49.js                            [39m[1m[2m  0.81 kB[22m[1m[22m[2m │ gzip:   0.51 kB[22m[2m │ map:     3.23 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/preview-e464bcf0.js                          [39m[1m[2m  0.83 kB[22m[1m[22m[2m │ gzip:   0.50 kB[22m[2m │ map:     1.19 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/preview-b1164a2e.js                          [39m[1m[2m  0.88 kB[22m[1m[22m[2m │ gzip:   0.58 kB[22m[2m │ map:     2.75 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/preview-cc96059b.js                          [39m[1m[2m  1.06 kB[22m[1m[22m[2m │ gzip:   0.69 kB[22m[2m │ map:     3.07 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/preview-bb5acd95.js                          [39m[1m[2m  2.38 kB[22m[1m[22m[2m │ gzip:   1.26 kB[22m[2m │ map:    10.12 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/index-d37d4223.js                            [39m[1m[2m  2.63 kB[22m[1m[22m[2m │ gzip:   1.30 kB[22m[2m │ map:     7.44 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/preview-f96f0111.js                          [39m[1m[2m  3.29 kB[22m[1m[22m[2m │ gzip:   1.41 kB[22m[2m │ map:    10.04 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/Task.stories-89f25132.js                     [39m[1m[2m  3.75 kB[22m[1m[22m[2m │ gzip:   1.60 kB[22m[2m │ map:     5.84 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/preview-65a648b5.js                          [39m[1m[2m  3.78 kB[22m[1m[22m[2m │ gzip:   1.80 kB[22m[2m │ map:    14.45 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/iframe-52ea0924.js                           [39m[1m[2m  4.92 kB[22m[1m[22m[2m │ gzip:   1.72 kB[22m[2m │ map:     5.47 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/index-f1f749bf.js                            [39m[1m[2m  7.25 kB[22m[1m[22m[2m │ gzip:   2.96 kB[22m[2m │ map:    15.63 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/preview-62235626.js                          [39m[1m[2m  7.69 kB[22m[1m[22m[2m │ gzip:   1.60 kB[22m[2m │ map:    13.64 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/preview-e6f1f377.js                          [39m[1m[2m  7.97 kB[22m[1m[22m[2m │ gzip:   3.03 kB[22m[2m │ map:    28.13 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/index-078d3f98.js                            [39m[1m[2m 10.06 kB[22m[1m[22m[2m │ gzip:   3.66 kB[22m[2m │ map:    26.45 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/GlobalScrollAreaStyles-XIHNDKUY-e0532832.js  [39m[1m[2m 10.53 kB[22m[1m[22m[2m │ gzip:   2.41 kB[22m[2m │ map:    15.68 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/preview-8e084d2f.js                          [39m[1m[2m 11.13 kB[22m[1m[22m[2m │ gzip:   3.76 kB[22m[2m │ map:    41.67 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/Color-3YIJY6X7-f967335a.js                   [39m[1m[2m 31.11 kB[22m[1m[22m[2m │ gzip:  11.69 kB[22m[2m │ map:   112.13 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/TaskList.stories-6276ea6d.js                 [39m[1m[2m 40.93 kB[22m[1m[22m[2m │ gzip:  14.13 kB[22m[2m │ map:   235.77 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/OverlayScrollbars-VAV6LJAB-33892a5d.js       [39m[1m[2m 59.11 kB[22m[1m[22m[2m │ gzip:  25.35 kB[22m[2m │ map:   277.18 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/_getPrototype-ad889add.js                    [39m[1m[2m 78.82 kB[22m[1m[22m[2m │ gzip:  23.65 kB[22m[2m │ map:   322.04 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/index-96c5f47c.js                            [39m[1m[2m134.19 kB[22m[1m[22m[2m │ gzip:  43.27 kB[22m[2m │ map:   326.59 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/config-c5897f1e.js                           [39m[1m[2m213.66 kB[22m[1m[22m[2m │ gzip:  66.39 kB[22m[2m │ map:   801.98 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/InboxScreens.stories-fa16c644.js             [39m[1m[2m258.24 kB[22m[1m[22m[2m │ gzip:  60.69 kB[22m[2m │ map:   914.63 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/index-32fa39f7.js                            [39m[1m[2m337.19 kB[22m[1m[22m[2m │ gzip:  99.37 kB[22m[2m │ map: 1,426.73 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/DocsRenderer-7FRJXR4N-9271d93c.js            [39m[1m[33m504.82 kB[39m[22m[2m │ gzip: 166.16 kB[22m[2m │ map: 1,433.72 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/axe-10c1bec0.js                              [39m[1m[33m545.73 kB[39m[22m[2m │ gzip: 148.72 kB[22m[2m │ map: 1,944.32 kB[22m
+[2mC:/Users/PC/AppData/Local/Temp/chromatic--8748-X0qUmrTg8Af9/[22m[36massets/formatter-S4K5WUZV-140eb505.js               [39m[1m[33m601.76 kB[39m[22m[2m │ gzip: 185.09 kB[22m[2m │ map: 1,315.94 kB[22m
+[33m
+(!) Some chunks are larger than 500 kBs after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+[32m✓[39m built in 15.98s
+info => Output directory: C:\Users\PC\AppData\Local\Temp\chromatic--8748-X0qUmrTg8Af9
